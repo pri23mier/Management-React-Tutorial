@@ -37,7 +37,6 @@ class App extends Component{
             return(
               <Customer
               key={c.id}
-                id={c.id}
                 image={c.image}
                 name={c.name}
                 birthday={c.birthday}
