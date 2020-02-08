@@ -36,7 +36,7 @@ class App extends Component{
           customers.map(c => {
             return(
               <Customer
-              key={c.id}
+              key={c.id}git
                 image={c.image}
                 name={c.name}
                 birthday={c.birthday}
