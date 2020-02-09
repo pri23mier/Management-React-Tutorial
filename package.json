@@ -5,11 +5,12 @@
         "client": "cd client && npm start",
         "server": "nodemon server.js",
         "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
-        "start":"webpack-dev-server --open --config webpack/webpack.config.dev.js"
+        "start": "webpack-dev-server --open --config webpack/webpack.config.dev.js"
     },
     "dependencies": {
         "body-parser": "^1.18.3",
-        "express": "^4.16.4"
+        "express": "^4.16.4",
+        "multer": "^1.4.2"
     },
     "devDependencies": {
         "concurrently": "^4.0.1",
